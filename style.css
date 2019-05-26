@@ -1,0 +1,68 @@
+#wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#input-json{
+  font-size: 12px;
+}
+
+#response{
+  font-size: 12px;
+}
+#response a {
+  text-decoration: underline;
+}
+#response .psuedo_link,a:visited {
+  color:#0000ff;
+}
+#response a:hover {
+  color:#ff0000;
+}
+#response a:active {
+  color:#ff00cc;
+}
+
+.psuedo_link {
+  color: #0000ff;
+}
+
+#waiting {
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+#table_holder{
+  width: 1080px;
+  max-height: 600px;
+  overflow: scroll;
+}
+
+table{
+  border-collapse:collapse;
+}
+thead{
+}
+tbody{
+}
+td,th{
+  padding:10px;
+  border-bottom:1px solid #ccc;
+  /*min-width: 100px;*/
+}
+th{
+  color:#fff;
+  background:#005ab3;
+}
+th.index{
+  background: gray;
+}
+
+#current-json {
+  background: #333333;
+  width: 1080px;
+  max-height: 480px;
+  overflow: scroll;
+  color: #ffffff;
+}
